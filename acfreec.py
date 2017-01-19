@@ -27,9 +27,12 @@ def getText():
         text = "Looks like (light) rain. Take a look outside to see if you might want to close the windows."
     elif not str(weatherGroup).startswith('8') or not (int(weatherGroup) < 951 or int(weatherGroup) > 956):
         text = "Looks like unfriendly weather! Better check if you might not want to close the windows."
+    else:
+        text = None
     return text
 
 
 message = getText()
-textmyself.textmyself(message)
+if message != None:
+    textmyself.textmyself(message)
 
