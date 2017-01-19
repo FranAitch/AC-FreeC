@@ -12,3 +12,6 @@ The script helps you to cool down your appartment in the summer when you've got 
 3. Add your information to "textmyself.py" (twilio) and "acfreec.py" (OpenWeatherMap)
 
 4. For this to be useful, you might want to set up the script in a way that it runs automatically every hour.
+
+# 
+*__Please Note__: my free trial account expired, so I can't test this anymore for the time being.*
