@@ -2,10 +2,10 @@
 import json, requests, textmyself
 
 # Set this to your location id, e.g. "2657360"
-location_id = None
+location_id = ""
 
 # Set this to your app id (long string of numbers and letters)
-app_id = None
+app_id = ""
 
 # Set this to the indoor temperature you don't want to exceed
 indoorTemp = 20.0
