@@ -54,7 +54,7 @@ Sidenote: If you haven't used the shell yet and/or are intimidated by it, maybe 
 
 <p>4.) Display the tweets either by just opening the .txt file by double clicking it in your folder or display the contents directly in your shell via 'cat YourTwitterHandle_YourSlug.txt'. For example:</p>
 
-<pre><code>cat ca5aw_newsfeed.txt
+<pre><code>cat franaitch_newsfeed.txt
 </code></pre>
 
 <p>Tip: a quick way to open a link in your browser is to just right click on the url, then click 'Open URL'. </p>
