@@ -7,6 +7,10 @@ It's summer, you've got no AC, but you want to cool down your appartment. So you
 This is an auto reminder for when you should close the window before your room starts to heat up again.
 
 
+## AbbyyConverter
+WIP for the corpus project of my former workplace. Script using *pyautogui* to make the computer convert a folder with hundreds of abbyy files to .html files.
+
+
 ## FreezeBreath
 Lets you know when it's cold enough to put your frozen goods outside while you defrost the freezer.
 
