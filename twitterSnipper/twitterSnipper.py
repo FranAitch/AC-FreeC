@@ -48,18 +48,17 @@ def main():
     if len(list(shelfFile.keys())) != 0:
         lastSavedTweet = shelfFile['lastSavedTweet']
         lastDate = shelfFile['date']
-        todaysTweetsList = shelfFile[weekday]
+        if currentDate != lastDate:
+            todaysTweetsList = []
+        else:
+            todaysTweetsList = shelfFile[weekday]
     else:
         lastSavedTweet = None
-        lastDate = None
         todaysTweetsList = []
         for day in WEEKDAYS:
             shelfFile[day] = ''
         
-    
-    if currentDate != lastDate:    
-        todaysTweetsList = []
-    
+  
     for tweet in tweepy.Cursor(api.list_timeline, username, mySlug, since_id = lastSavedTweet).items(maxNumberOfTweets):       
         
         foundDuplicate = filter(tweet.text, shelfFile, todaysTweetsList, WEEKDAYS)
