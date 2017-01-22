@@ -59,6 +59,9 @@ Sidenote: If you haven't used the shell yet and/or are intimidated by it, maybe 
 
 <p>Tip: a quick way to open a link in your browser is to just right click on the url, then click 'Open URL'. </p>
 
+## Please Note
+<p>I deleted my twitter account, so some of the most recent changes to the script are untested. Should work, but let me know if it doesn't.</p>
+
 ## Feedback
 <p>I just recently started coding. Any feedback on how to make my code more elegant and/or efficient would be much appreciated!</p>
 
