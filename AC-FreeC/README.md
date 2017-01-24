@@ -13,8 +13,8 @@ The script helps you to cool down your appartment in the summer when you've got 
 
 4. For this to be useful, you might want to set up the script in a way that it runs automatically every half hour or so.
 
-## To Do
-- [ ] Add timing feature so that people who don't know how to do #4 can start and stop it manually, and it'll keep checking every half hour inbetween
+If you don't know how to do the latter, no worries. You can check <a href="https://automatetheboringstuff.com/schedulers.html" target="_blank" />here</a> for tutorials (there are no links, google the titles). *Or* you can just use the "in-script scheduler". That means, you execute the script and it keeps running until you manually tell it to stop (hopefully when you got your "close the windows!" reminder) by causing a KeyboardInterrupt error. You cause a KeyboardInterrupt error by pressing the keys ctrl + c.
+
 
 # 
 *__Please Note__: my free trial account expired, so I can't test this anymore for the time being.*
